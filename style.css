@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+width: 100%; 
+padding: 24px 0px;
+}
+.container{
+    width:1140px;
+    margin: auto;
+}
+.header-tog{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-menu ul{
+    display:inline-block;
+    margin-left: 32px;
+    
+}
+.logo-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 16px;;
+}
+.logo-menu ul li a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: #292640;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.logo-menu ul li a:hover{
+    color: #ff6162;
+    transition: 0.5s;
+}
+.header-btn button {
+    text-decoration: none;
+    background-color: #ff6162;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-btn button a{
+text-decoration: none;
+color: white;
+font-weight: 600;
+}
+.header-btn button:hover{
+    background-color: #292640;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.banner-tog{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-l{
+    margin-right: 30px;
+    
+}
+
+.banner-headers{
+    margin-top: 25px;
+    margin-bottom:25px;
+    
+    font-family:jumper bold;
+    
+}
+
+
+.banner-headers h1{
+
+    color: #292640;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+}
+
+.banner-para
+{
+    color: rgb(165, 165, 165);
+    margin-bottom: 12px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    padding: 140px 0px;
+}
+
+.banner-l, .banner-r{
+    flex-basis: 50%;
+}
+
+/******
+project section
+*******/
+.projects{
+    width: 100%;
+    padding: 60px 0px;
+    text-decoration: none;
+    
+
+}
+.project-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.project-title h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: #292640;
+}
+.project-title p{
+    color: rgb(165, 165, 165);
+    margin-bottom: 12px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    font-style: italics;
+    font-size: 16px;
+    font-weight: 400px;
+}   
+.project-gallery{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.p-item
+{
+    flex-basis: 25%;
+    text-align: center;
+}
+.p-item a{
+    text-decoration: none;
+}
+.p-item a p{
+font-size: 14px;
+font-family:'Poppins', sans-serif;
+font-weight: 600;
+}
+.p-item img{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.line{
+    margin: 60px auto;
+    height: 80px;
+    width: 4px;
+    text-align: center;
+    background-color:#a2a4a5;
+}
+.f-first
+{
+text-align: center;
+font-family:'Poppins', sans-serif; 
+}
+.f-first h1{
+    color: #292640;
+    font-size: 42px;
+    margin-top: 160px;
+}
+.f-first p{
+    color: #a2a4a5;
+    font-style: italic;
+    font-size: 16px;
+    
+    
+}
+
+.f-second{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: center;
+    font-family:'Poppins', sans-serif; 
+
+}
+.f-second h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.f-second p{
+    color: #a2a4a5;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.f-item{
+    background: #f5f5f5;
+    margin: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+
+}
+.f-item:hover{
+    background-color: #ff6162;
+    
+    transition: 1.0s;
+    cursor: pointer;
+}
+.f-second p:hover{
+    color: #292640;
+    font-size: 16px;
+    line-height: 1.3;
+    transition: 1.0s;
+}
+
+.f-item i{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: #ff6162;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+
+.footer{
+    width: 100%;
+    
+    margin: auto;
+    background-color: #292640;
+    color: white;
+    text-align: center;
+}
+.footer-heading{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-button button{
+    border: none;
+   
+}
+.footer-button button a{
+
+    
+        background-color: #ff6162;
+      
+        color: white;
+        padding: 10px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        
+        
+      }
+      .footer-button button a:hover{
+        background-color: #a2a4a5;
+        transition: 0.5s;
+        cursor: pointer;
+    }
